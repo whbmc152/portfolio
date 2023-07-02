@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+ 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +19,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: url('../../../public/background-portfolio.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  --primary-color: #f7903b;
+}
+
+/*----Font----*/
+
+@font-face {
+  font-family: Audiowide;
+  src: url('../../../public/Audiowide.ttf');
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 }
