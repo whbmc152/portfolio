@@ -49,7 +49,7 @@ const Navbar = (props) => {
                     {navItems.map((item) => {
                         return (
                             <Link href={item.path} className={item.path==props.path ? 'active' : ''}>
-                                {item.title}
+                                <span>{item.title}</span>
                             </Link>
                         )
                     })}
