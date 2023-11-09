@@ -4,12 +4,11 @@
 
 :root {
   --primary-color: #f7903b;
- 
+
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-  }
+  :root {}
 }
 
 body {
@@ -21,7 +20,7 @@ body {
 }
 
 .dark {
-  color:white;
+  color: white;
 }
 
 /*----Font----*/

@@ -6,7 +6,7 @@ import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 
 const Navbar = (props) => {
-    
+
     const navItems = [
         {
             path: '/',
@@ -35,8 +35,8 @@ const Navbar = (props) => {
             w-screen
             h-16
             z-1'>
-                <Logo />
-                <div className='
+            <Logo />
+            <div className='
                     flex
                     flex-row
                     justify-end
@@ -46,14 +46,14 @@ const Navbar = (props) => {
                     right-0
                     pr-16
                 '>
-                    {navItems.map((item) => {
-                        return (
-                            <Link href={item.path} className={item.path==props.path ? 'active' : ''}>
-                                <span>{item.title}</span>
-                            </Link>
-                        )
-                    })}
-                </div>
+                {navItems.map((item) => {
+                    return (
+                        <Link href={item.path} className={item.path == props.path ? 'active' : ''}>
+                            <span>{item.title}</span>
+                        </Link>
+                    )
+                })}
+            </div>
         </div>
     )
 }

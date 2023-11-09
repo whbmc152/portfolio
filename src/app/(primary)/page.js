@@ -1,6 +1,6 @@
-import Avatar from './components/avatar'
-import Greeting from './components/greeting'
-import Navbar from './components/navbar'
+import Avatar from '../components/avatar'
+import Greeting from '../components/greeting'
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (

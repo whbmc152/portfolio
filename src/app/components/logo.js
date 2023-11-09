@@ -6,6 +6,7 @@ const Logo = () => {
             pl-16
             flex 
             flex-row
+            flex-grow
             justify-start
             items-center
             text-orange-400
