@@ -4,8 +4,7 @@ import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
-    <main className="flex min-h-full min-w-full w-full flex-col">
-      <Navbar path='/'/>
+    <main className="flex min-h-full h-full min-w-full w-full flex-col">
       <Greeting/>
       <Avatar/>
     </main>
